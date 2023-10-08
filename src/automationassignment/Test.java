@@ -124,7 +124,7 @@ public class Test {
 
 	      int i6 = 10;
 
-	      System.out.println(~i6); */
+	      System.out.println(~i6); 
 		
 		
 		double db1 = 14.5d;
@@ -142,7 +142,16 @@ public class Test {
 		boolean bool = true;
 
 	//	bool++;
-		System.out.println(bool);
+		System.out.println(bool); */
+		
+		int i = 10; 
+
+		int j = i++; 
+
+		System.out.println(j);
+		System.out.println("Value of i is " + i); 
+
+		
 	}
 
 }
