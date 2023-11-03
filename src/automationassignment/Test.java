@@ -144,12 +144,16 @@ public class Test {
 	//	bool++;
 		System.out.println(bool); */
 		
-		int i = 10; 
+	/*	int i = 10; 
 
 		int j = i++; 
 
 		System.out.println(j);
 		System.out.println("Value of i is " + i); 
+*/
+		
+
+		int =123 = 67;
 
 		
 	}
