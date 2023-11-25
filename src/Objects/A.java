@@ -2,25 +2,25 @@ package Objects;
 
 class A{
 
-	static{
+	public static void main(String []args)
 
-		System.out.println("first block");  
+	{
+		System.out.println("Hello");
+		
+	}
 
-		  }
+}
 
-		  static{
+class B{
 
-		System.out.println("second block");  
-
-		  }
-
+	int k = m1();
+	System.out.println(k);
 
 
-		public static void main(String[] args)
-		{
+	public static int m1()
+	{
 
-		System.out.println("main method");
+	return 10;
 
-		}
-
+	}
 }

@@ -14,7 +14,7 @@ public class DataProviderDemo {
 		Object[][] h1 = 
 			{
 					{10,20,30},
-					{20,50,70},
+					{20,50,30},
 					{4,2,7},
 					{6,7,13}
 			};
@@ -24,13 +24,13 @@ public class DataProviderDemo {
 	@Test(dataProvider = "addvalue")
 	void add(int i, int j, int expected)
 	{
-		//Assert.assertEquals(i+j, expected);
+		Assert.assertEquals(i+j, expected);
 
-		if(i+j == expected) {
-			System.out.println("pass");
-		}else {
-			System.out.println("fail");
-		}
+//		if(i+j == expected) {
+//			System.out.println("pass");
+//		}else {
+//			System.out.println("fail");
+//		}
 	}
 
 }
